@@ -23,10 +23,11 @@ Array.prototype.bubblesort = function() {
 String.prototype.substrings = function() {
     let final = []
     for (let i = 0; i < this.length; i++) {
-        for (let j = i + 1; j < this.length - 1; j++) {
-            final.push(i, j)
+        for (let j = i + 1; j <= this.length; j++) {
+            final.push(this.slice(i, j))
         }
     }
+    return final
 }
 
-console.log('catman'.substrings()); 
+// console.log('catman'.substrings()); 

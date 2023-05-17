@@ -93,10 +93,10 @@ Array.prototype.myReduce = function(callback, initialValue) {
     // return count
 }
 
-console.log([1, 2, 3].myReduce(function(acc, el) {
-    return acc + el;
-  })); // => 6
+// console.log([1, 2, 3].myReduce(function(acc, el) {
+//     return acc + el;
+//   })); // => 6
 
- console.log([1, 2, 3].myReduce(function(acc, el) {
-    return acc + el;
-  }, 25)); // => 31
+//  console.log([1, 2, 3].myReduce(function(acc, el) {
+//     return acc + el;
+//   }, 25)); // => 31
